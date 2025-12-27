@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Foody - Organic Food Website Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .box img{
+ border-radius: 500px;
+    width: 300px;
+    height: 300px;
+}
+body{
+    background-color: blueviolet;
+}
+</style>
+</head>
+
+<body>
+    <header class="header">
+         <a href="sign up.html" class="logo">
+             <i class="fa fa-shopping-cart" aria-hidden="true"></i> 
+             Organic Food Store</a>
+        <!-- <img src="A2.jpg" width="100px" height="100px"></a> -->
+        <nav class="navbar">
+           <button><a href="part1.html">Home</a></button>
+        <button><a href="Features.html">features</a></button>
+           <button> <a href="p.html">Product</a></button>
+            <button><a href="voucher.html">Voucher</a></button>
+         </nav>
+        <div class="icons">
+    <div class="fa fa-bars" id="menu-btn"></div>
+    <div class="fa fa-search" id="search-btn"></div>
+    <div class="fa fa-shopping-cart" id="cart-btn"></div>
+    <div class="fa fa-user" id="login-btn"></div>
+</div>
+<form class="search-form" action="p.html">
+   <input type="search" id="search-box" placeholder="Search here...">
+    <label for="search-box" class="fa fa-search"></label>
+</form>
+
+
+
+
+<div class="shopping-cart">
+    <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="fruit5.jpg">
+<div class="content">
+        <h3>Pineapple</h3>
+        <span class="price"><b>1500ks</b></span>
+        <span class="quantity"><b>Qty :1</b></span>
+
+</div>
+</div>
+
+<div class="box">
+    <i class="fa fa-trash"></i>
+    <img src="orange.jpg">
+    <div class="content">
+    <h3>Orange</h3>
+    <span class="price"><b>500ks</b></span>
+    <span class="quantity"><b>Qty :1</b></span>
+</div>
+</div>
+
+
+<div class="box">
+    <i class="fa fa-trash"></i>
+    <img src="p10.webp">
+<div class="content">
+    <h3>Watermelon</h3>
+    <span class="price"><b>2000ks</b></span>
+    <span class="quantity"><b>Qty :1</b></span>
+</div>
+</div>
+<div class="total"> total : 4000ks</div>
+<a href="#" class="btn">Checkout</a>
+</div>
+
+
+<form action="ordersystem.html" class="login-form">
+    <h3>Login now</h3>
+    <input type="email" placeholder="Enter your email" class="box">
+    <input type="password" placeholder=" Enter your password" class="box">
+    <p>Forget Your Password<a href="#">Click Here</a></p>
+    <p>Don't have an account?<a href="#">Create Now</a></p>
+    <input type="submit" value="Login Now" class="btn">
+</form>
+</header>
+<section class="home" id="home">
+    <div class="content">
+        <h3>Fresh and <span>Organic </span>Products For You</h3><br><br>
+       <a href="p.html" class="btn">Shop Now</a>
+    </div>
+</section>
+
+<section class="features" id="features">
+    <h1 class="heading">Our<span>features</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="fruits and vegetables.jpg">
+            <h3>Fresh and Organic</h3>
+
+            <p></p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+            <img src="delivery.Webp">
+            <h3>Delivery Sevrices</h3>
+
+            <p></p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+            <img src="card2.avif">
+            <h3>Types of Payments</h3>
+
+            <p></p>
+            <a href="payment.html" class="btn">Read More</a>
+        </div>
+    </div>
+</section>
+<section class="products" id="products" >
+    <h1 class="heading"> our <span>products</span></h1>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="fruit5.jpg">
+                <h1>fresh pineapple</h1>
+                <div class="price">2000ks</div>
+                <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+
+
+            </div>
+            <a href="" class="btn">Buy</a>
+        </div>
+
+
+
+        <div class="swiper-slide box">
+            <img src="orange.jpg">
+            <h1>fresh orange</h1>
+            <div class="price">500ks</div>
+            <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+
+
+        </div>
+        <a href="" class="btn">Buy</a>
+    </div>
+    <div class="swiper-slide box">
+        <img src="p10.webp">
+        <h1>fresh watermelon</h1>
+        <div class="price">2000ks</div>
+        <div class="stars">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half"></i>
+
+    </div>
+    <a href="" class="btn">Buy</a>
+</div>
+<div class="swiper-slide box">
+    <img src="apple.jpg">
+    <h1>fresh apple</h1>
+    <div class="price">700ks</div>
+    <div class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+
+</div>
+<a href="" class="btn">Buy</a>
+</div>
+<div class="swiper-slide box">
+    <img src="fruit2.jpg">
+    <h1>fresh tomato</h1>
+    <div class="price">1vss:2000ks</div>
+    <div class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+
+
+</div>
+<a href="" class="btn">Buy</a>
+</div>
+<div class="swiper-slide box">
+    <img src="durain.jpg">
+    <h1>Fresh Durain</h1>
+    <div class="price">8000Ks</div>
+    <div class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+
+
+</div>
+<a href="" class="btn">Buy</a>
+</div>
+<div class="swiper-slide box">
+    <img src="kk.jpg">
+    <h1>Fresh Eggplant</h1>
+    <div class="price">1vss:800Ks</div>
+    <div class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+
+
+</div>
+<a href="" class="btn">Buy</a>
+</div>
+<div class="swiper-slider box">
+    <img src="carrot.avif">
+    <h1>Fresh Carrot</h1>
+    <div class="price">1vss:5000Ks</div>
+    <div class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+
+
+</div>
+<a href="" class="btn">Buy</a>
+</div>
+</div>
+</div>
+
+    </div>
+
+</section>
+
+<footer>
+
+  <h2>Contact Info</h2>
+  <div class="contact">
+        <ul>
+         <li><a href="#" class="link"><i class="fa fa-phone"></i>09258787919</a></li>
+         <li><a href="#" class="link"><i class="fa fa-phone"></i>09665300859</a></li>
+         <li><a href="#" class="link"><i class="fa fa-phone"></i>09698769877</a></li>
+         <li><a href="#" class="link"><i class="fa fa-envelope"></i>infoexample.com</a></li>
+         <li><a href="#" class="link"><i class="fa fa-map-maker">Pyay Aunglan Main Road</i></a></li>
+       </ul>
+
+    </div>
+ <frame></frame>
+<center><img src="pay.jpg" width="500px" height="500px"></center>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    </body></html>
+
